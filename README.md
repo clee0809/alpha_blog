@@ -7,6 +7,8 @@ resources provides REST-ful routes to Rails resources
 This README would normally document whatever steps are necessary to get the
 application up and running.
 
+100. DRY code - refactoring and partials
+
 Things you may want to cover:
 
 * Ruby version
