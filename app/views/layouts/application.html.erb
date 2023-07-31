@@ -6,11 +6,22 @@
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
 
-    <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
+    <%= stylesheet_link_tag "application", media: 'all', "data-turbolinks-track": "reload" %>
     <%= javascript_importmap_tags %>
   </head>
 
-  <body>
-    <%= yield %>
+  <body id="container" class="d-flex flex-column">
+    <div>
+     
+    </div>
+    <div>
+      
+      <%= yield %>
+    </div>
+    <section>
+      </br>
+      </br>
+    </section>
+    
   </body>
 </html>

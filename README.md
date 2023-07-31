@@ -1,5 +1,9 @@
 # README
 
+REST - Representational state transfer - mapping HTTP verbs (get, post, put/patch, delete) to CRUD actions
+
+resources provides REST-ful routes to Rails resources
+
 This README would normally document whatever steps are necessary to get the
 application up and running.
 
